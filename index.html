@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0px;
+        }
+        #lmm {
+            margin: 0;
+            position: relative;
+        }
+        .figure1{
+            width: 100%;
+            margin: 0;
+            height: 700px;
+        }
+        .texto h1 {
+           position: absolute;
+           color:#000;
+           text-align: center;
+           width: 500px;
+           line-height: 30px;
+           height: 500px;
+           margin-left: 32%;
+           margin-top: 20%;
+           color: white;
+           font-size: 60px;
+        }
+        .texto p {
+           position: absolute;
+           color: rgba(236, 232, 232, 0.685);
+           text-align: center;
+           width: 250px;
+           line-height: 30px;
+           height: 30px;
+           margin-left: 42%;
+           margin-top: 23%;
+        }
+        #link1 {
+           text-decoration: none;
+           position: absolute;
+           color:rgba(236, 232, 232, 0.685);
+           text-align: center;
+           width: 100px;
+           line-height: 30px;
+           height: 30px;
+           margin-top: 28%;
+           margin-left: 28%;
+           padding: 8px;
+        }
+        a:hover {
+            border: 1px solid white;
+            border-radius: 25px;
+        }
+        #link2 {
+           text-decoration: none;
+           position: absolute;
+           color:rgba(236, 232, 232, 0.685);
+           text-align: center;
+           width: 120px;
+           line-height: 30px;
+           height: 30px;
+           margin-top: 28%;
+           margin-left: 39%;
+           padding: 8px;
+        }
+        #link3 {
+           text-decoration: none;
+           position: absolute;
+           color:rgba(236, 232, 232, 0.685);
+           text-align: center;
+           width: 130px;
+           line-height: 30px;
+           height: 30px;
+           margin-top: 28%;
+           margin-left: 51.5%;
+           padding: 8px;
+        }
+        #link4 {
+            text-decoration: none;
+            position: absolute;
+            color:rgba(236, 232, 232, 0.685);
+            text-align: center;
+            width: 120px;
+            line-height: 30px;
+            height: 30px;
+            margin-top: 28%;
+            margin-left: 64%;
+            padding: 8px;
+        }
+        .container {
+            margin: 30px;
+            width: 65%;
+            margin-top: 15px;
+        }
+        .container h1{
+            font-size: 35px;
+            color:rgba(0, 0, 0, 0.829);
+            margin: 0px;
+        }
+        #subtittle {
+            margin-top: 0;
+            font-size: 1.2em;
+            margin-left: 2px;
+            color:rgba(0, 0, 0, 0.829);
+        }
+        #mbn {
+            margin: 0;
+        }
+        #mbn img {
+            width: 100%;
+            height: 320px;
+        }
+        .kkk p{
+            font-size: 1.1em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container, .container1 {
+            float: left;
+        }
+        .container1{
+            width: 30%;
+            position: relative;
+        }
+        .container1 h3{
+            margin-left: 15px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color:rgba(0, 0, 0, 0.829);
+        }
+        #der p {
+            color:rgba(0, 0, 0, 0.336);
+            font-size: 0.8em;
+            margin-left: 15px;
+            margin-top: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #mji img {
+            margin-left: 15px;
+        }
+        #bhg p{
+            font-size: 0.8em;
+            margin-left: 110px;
+            width: 60%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        #mji, #bgh {
+            float: left;
+        }
+        hr {
+            margin-top: 50px;
+            margin-left: 0px;
+            width: 350px;
+        }
+        #çaç p{
+            color:rgba(0, 0, 0, 0.336);
+            font-size: 0.8em;
+            margin-left: 15px;
+            margin-top: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }  
+        #nsj img {
+            margin-left: 15px;
+        }   
+        #mui {
+            font-size: 0.8em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #mui, #nsj {
+            float: left;
+        }
+        #qop p{
+            color:rgba(0, 0, 0, 0.336);
+            font-size: 0.8em;
+            margin-left: 15px;
+            margin-top: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #ççç img {
+            margin-left: 15px;
+        }
+        #lwl p {
+            font-size: 0.8em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #lwl, #ççç {
+            float: left;
+        }
+        .box {
+            float: none;
+            margin: 25px;
+            margin-top: 15px;
+            width: 1278px;
+            height: max-content;
+            position: relative;
+        }
+        #uai{
+            width: 380px;
+        }
+        #uai h2{
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 22px;
+            color:rgba(0, 0, 0, 0.884)
+        }
+        #uai img{
+            margin-left: 30px;
+            width: 100%;
+            height: 180px;
+        }
+        #uai p{
+            margin-left: 30px;
+            width: 420px;
+        }
+        #uai button{
+            margin-left: 35px;
+            border: 1px solid rgb(216, 37, 37);
+            border-radius: 30px;
+            width: 150px;
+            padding: 8px;
+            color: white;
+            background-color: rgb(216, 37, 37);
+        }
+       #mqp {
+           width:380px;
+           margin-left: 50px;
+       }
+       #mqp h2 {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 22px;
+            color:rgba(0, 0, 0, 0.884)
+       }
+       #mqp img{
+            margin-left: 30px;
+            width: 100%;
+            height: 180px;
+       }
+       #mqp p{
+            margin-left: 30px;
+            width: 380px;
+       }
+       #mqp button {
+            margin-left: 35px;
+            border: 1px solid rgb(216, 37, 37);
+            border-radius: 30px;
+            width: 150px;
+            padding: 8px;
+            color: white;
+            background-color: rgb(216, 37, 37);
+       }
+       #mqp, #uai, #koq {
+           float: left;
+       }
+       #koq {
+           width:380px;
+           margin-left: 50px;
+       }
+       #koq h2{
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 22px;
+            color:rgba(0, 0, 0, 0.884)
+       }
+       #koq img{
+            margin-left: 30px;
+            width: 100%;
+            height: 180px;
+       }
+       #koq p {
+          margin-left: 30px;
+            width: 380px;
+       }
+       #koq button{
+            margin-left: 35px;
+            border: 1px solid rgb(216, 37, 37);
+            border-radius: 30px;
+            width: 150px;
+            padding: 8px;
+            color: white;
+            background-color: rgb(216, 37, 37);
+       }
+       #aaa{
+           width: 28%;
+           margin-left: 50px;
+       }
+       #aaa h2{
+           font-size: 18px;
+           color: rgba(46, 45, 45, 0.897);
+
+       }
+       #aaa p{
+           font-size: 0.8em;
+           color: rgba(46, 45, 45, 0.897);
+       }
+       
+       #oqoq {
+           width: 28%;
+           margin-left: 50px;
+       }
+       #oqoq h2{
+           font-size: 18px;
+           color: rgba(46, 45, 45, 0.897);
+       }
+       #oqoq p{
+           font-size: 0.8em;
+           color: rgba(46, 45, 45, 0.897);
+       }
+       #oqoq, #aaa, #uiui {
+           float: left;
+       }
+       #uiui {
+           width: 28%;
+           margin-left: 50px;
+       }
+       #uiui h2{
+           font-size: 18px;
+           color: rgba(46, 45, 45, 0.897);
+       }
+       #uiui p{
+           font-size: 0.8em;
+           color: rgba(46, 45, 45, 0.897);
+       }
+    </style>
+    <title>Diagramação de Site 3 - Segundo Trimestre</title>
+</head>
+<body>
+    <header>    
+        <figure id ="lmm">
+     <div class ="mm">
+        <div class="texto">
+             <h1>LOREM IPSUM</h1>
+             <p>
+                 DESIGN BY DUOROREM
+             </p>
+             <a id ="link1" href="#homepage">HOMEPAGE</a>
+             <a id ="link2" href="#sidebar">LEFT SIDEBAR</a>
+             <a id ="link3" href="#rightbar">RIGHT SIDEBAR</a>
+             <a id ="link4" href="">NO SIDEBAR</a>
+         </div>
+           <img class="figure1" src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/banner.jpg" alt="imagem banner">
+         </div>
+        </figure>
+    </header>
+    <main>
+        <section class ="container">
+            <div>
+                <h1><strong>WELCOME TO LOREM IPSUM!</strong></h1>
+                <h4 id ="subtittle">Integer sit amet pede vel arcu aliquet pretium</h4>
+            </div>
+            <figure id ="mbn">
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic07.jpg" alt="Imagem pic2">
+            </figure>
+            <nav class ="kkk">
+                <p id ="homepage">
+                    This is <strong>Lorem Ipsum</strong>, a responsives HTMLS. Lorem ipsum dolor sit, amet <em>consectetur</em> adipisicing elit. Eum a officiis facilis eos <em>aspernatur</em> aut temporibus! Ipsa <em>mokient</em> exercitationem, nam illo atque autem aliquid distinctio quaerat <em>sit</em> illum adipisci fugit aperiam consequuntur!
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, numquam mollitia enim aliquam quidem unde molestiae explicabo error vel reiciendis minus impedit magni earum quod eaque similique, tenetur alias rem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste.
+                </p>
+            </nav>
+        </section>
+        <section class ="container1">
+            <div>
+                <h3>PELLENTESQUE VULPUTATE</h3>
+            </div>
+            <div id="der">
+                <p>
+                    August 11, 2002 | (SD) COMMENTS
+                </p>
+            </div>
+            <div id ="mji">
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic04.jpg" alt="Image pic3">
+            </div>
+            <div id ="bhg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non et cupiditate debitis ab in quidem Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <hr>
+            <div id="çaç">
+                <p>
+                    August 11, 2002 | (SD) COMMENTS
+                </p>
+            </div>
+            <div id ="nsj">
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic05.jpg" alt="">
+            </div>
+            <div>
+                <p id ="mui">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti obcaecati nobis veritatis recusandae debitis ratione doloremque ex.
+                </p>
+            </div>
+            <hr>
+            <div id="qop">
+                <p>
+                    August 11, 2002 | (SD) COMMENTS
+                </p>
+            </div>
+            <div id ="ççç">
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic06.jpg" alt="Image pic4">
+            </div>
+            <div id ="lwl">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque assumenda explicabo facilis maxime laboriosam itaque.
+                </p>
+            </div>
+            <hr>
+            <br><br><br>
+        </section>
+        <section class ="box">
+            <div id ="uai">
+                <h2>
+                    AENEAN ELEMENTUM FACILIS
+                </h2>
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic01.jpg" alt="Image pic 05">
+                <p id="sidebar">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eos quae amet asperiores, ipsum voluptas libero, exercitationem laborum fuga nemo iste obcaecati, natus consequuntur fugit quibusdam deleniti! Veniam, dolore necessitatibus.
+                </p>
+                <button>MORE DETAILS</button>
+            </div>
+            <div id="mqp">
+                <h2>
+                    FUSCE ULTRICES FRINGILLA
+                </h2>
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic02.jpg" alt="Image pic06">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit assumenda sed vitae voluptates dolore culpa quaerat possimus ex voluptatibus nesciunt enim quidem, quis maiores consectetur tenetur, illo, perferendis pariatur. Voluptas!
+                </p>
+                <button>MORE DETAILS</button>
+            </div>
+            <div id ="koq">
+                <h2>
+                    ETIAM RHONCUS VOLUTPAT
+                </h2>
+                <img src="file:///C:/Users/aline/Desktop/Atividades%20de%20aula%20-%20Design%20Web/Atividade%203/images/pic03.jpg" alt="Image pic07">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptates qui, blanditiis, eius iste numquam, nam voluptatem maxime quo iure laborum commodi aut fugiat. Assumenda animi fugit corrupti nostrum nihil!
+                </p>
+                <button>MORE DETAILS</button>
+                <br><br><br><br><br>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class ="box1">
+            <div id ="aaa">
+                <h2>
+                    LATEST POSTS
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                <hr>
+            </div>
+            <div id ="oqoq">
+                <h2>
+                    ULTRICES FRANGILLA
+                </h2>
+                <p id ="rightbar">
+                    Lorem ipsum dolor sit amet consectetur adipisicing. 
+                </p>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing. 
+                </p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing. 
+
+                </p>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing. 
+                </p>
+                <hr>
+            </div>
+            <div id="uiui">
+                <h2>
+                    AENEAN ELEMENTUM
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+                <hr>
+            </div> 
+        </section>
+    </footer>  
+</body>
+</html>
