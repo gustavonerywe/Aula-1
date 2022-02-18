@@ -1,0 +1,230 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 4.4rem;
+}
+h2 {
+    font-size: 2.6rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+h5 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1.3rem;
+    letter-spacing: .02rem;
+}
+body{
+   background-image: url(../images/cinza.jpg);
+}
+.bkc img{
+    position: relative;
+    width: 100%;
+    height: 530px;
+}
+
+
+ul, a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.bkc h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3.1em;
+}
+.bkc p{
+    font-size: 0.5em;
+    color: rgba(223, 217, 217, 0.548);
+    text-align: center;
+}
+
+#vision h3 {
+    text-align: center;
+    font-size: 2.2em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#vision p{
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+}
+#vision h4{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+hr {
+    width: 50%;
+}
+#persons h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 3.1em;
+    margin-bottom: 30px;
+}
+.cav img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.caveira h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.caveira p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+.tac img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.tachanka h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tachanka p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+
+.do img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.doc h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.doc p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+
+.as img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.ash h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ash p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+.cap img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.capitao h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.capitao p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+.sle img {
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.sledge h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sledge p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+#maps h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 3.4em;
+}
+
+.lit img{
+    margin-top: 20px;;
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.litoral h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.litoral p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+
+.tow img{
+    margin-top: 20px;;
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+}
+.tower h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tower p, h3{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;;
+}
+
+
+
