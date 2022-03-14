@@ -1,0 +1,13 @@
+@import './Base/reset.css';
+@import './Base/typography.css';
+
+@import './header/firstheader.css';
+@import './header/headercomponents.css';
+
+@import './components/button.css';
+
+@import './main/news.css';
+@import './main/staff.css';
+@import './main/products.css';
+
+@import './footer/ftr.css';
