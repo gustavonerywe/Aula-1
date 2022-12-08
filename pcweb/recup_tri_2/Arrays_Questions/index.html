@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays - manipulações</title>
+</head>
+<body>
+    <h1>
+        Ordenação de arrays
+    </h1>
+    <hr>
+    <h3>
+        <em>
+            1. Crie uma função que recebe um array de 2 números e coloque eles em ordem crescente. Não use o método sort.
+        </em>
+    </h3>
+    <p style="font-size: 1.3em; text-align:center">Elaboração do código em português:</p>
+    <p>Primeiramente, temos um array contendo números. Logo, torna-se necessário a utilização de uma estrutura de repetição (for) para percorrer todo o array; depois disso, precisa ter um outro array para trocar as posições dos elementos</p>
+    <p>A ordenação de elementos ocorre da seguinte maneira: verificação se o número anterior é maior do que o número posterior; caso o número anterior for maior, eles trocam de posição e segue sucessivamente.</p>
+    <p style="font-size: 1.3em; text-align:center">Demonstração do código:</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <hr>
+    <h3>
+        <em>
+           2. Crie uma função que recebe um array de 3 números e coloque eles em ordem crescente. Crie sua própria função para isso.
+        </em>
+    </h3>
+    <p style="font-size: 1.3em; text-align:center">Demonstração do código:</p>
+
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <hr>
+    <h3>
+        <em>
+           3. Crie um script que pergunte 3 números ao usuário, coloque em um array, depois exiba tal array.Modifique os elementos do array de modo a a sequência de números ficar do contrário. Ou seja, se digitou: 1,2,3 Vai aparecer: 3,2,1
+        </em>
+    </h3>
+    <p style="font-size: 1.3em; text-align:center">Demonstração do código:</p>
+
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <hr>
+    <h3>
+        <em>
+            4. Refaça o script anterior, mas agora pergunte ao usuário quantos números ele deseja inserir no array.Depois, o usuário  vai  preenchendo  elemento  por  elemento  do  vetor.Ao  final,  exiba  o  array  e  o  array  ao  contrário (generalização do script anterior).
+        </em>
+    </h3>
+    <p style="font-size: 1.3em; text-align:center">Elaboração do código em português:</p>
+    <p>
+        Primeiramente, é necessário transformar o input feito em array, logo após isso, implementar uma função que identifique o último índice e sobrescreva com o índice anteiror.
+    </p>
+    <p style="font-size: 1.3em; text-align:center">Demonstração do código:</p>
+    <input type="number" id="arrayInput" placeholder="Apenas números">
+    <button id="btn">Enviar</button>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <hr>
+    <h3>
+        <em>
+            5. Faça uma função que recebe um array de qualquer tamanho e ordene seus elementos na ordem crescente. Faça sua função na mão, não invoque nenhum método de sorting. Dica: pesquise sobre bubble sort.
+        </em>
+    </h3>
+    <p style="font-size: 1.3em; text-align:center">Demonstração do código:</p>
+    <input type="number" id="arrayInputTwo" placeholder="Apenas números">
+    <button id="btn2">Enviar</button>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+</body>
+<script src="./js/app.js" defer></script>
+</html>
