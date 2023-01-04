@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant App - PCWeb</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+        <h1 class="header-title">Controle Financeiro do Restaurante</h1>
+        <hr>
+        <section class="restaurant-contain">
+            
+    
+        </section>
+        <div class="main">
+            <div class="container">
+                <h2 style=" color: #2e75cc;">Valor a pagar</h4>
+                
+                <h1 id="balance" class="balance">R$ 0.00</h1>
+                <small>O valor de 10% da taxa de serviço já está adicionado!</small>
+
+                <div class="inc-exp-container">
+                    <div>
+                      <p id="money-plus" class="money plus"></p>
+                    </div>
+            
+                    <div>
+                      <p id="money-minus" class="money minus"></p>
+                    </div>
+                  </div>
+              
+                <ul id="buyItem" class="buyItem"></ul>
+              <h3>Adicionar prato</h3>
+              
+              <form id="form" method="get">
+                <div class="form-control">
+                  <label for="text">Código do prato</label>
+                  <input autofocus type="text" id="text" placeholder="Código do prato" />
+                </div>
+                <div class="form-control">
+                    <label for="amount">Valor do prato <br />
+                    </label>
+                    <input type="number" step=".01" id="amount" placeholder="Valor do prato" />
+                  </div>
+                <button class="btn">Adicionar</button>
+              </form>
+            </div>
+            <button id="remove"></button>
+        </div>
+</body>
+<script src="js/script.js"></script>
+</html>
